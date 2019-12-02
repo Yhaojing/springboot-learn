@@ -1,3 +1,4 @@
+# springboot-time
 Date 如果不格式化，打印的日期可读性查，
 如果格式化，使用SimpleDateFormat进行时间格式化，但是由于SimpleDateFormat使用Calendar进行格式化
 Calendar是共享变量，没有做线程安全控制，当多个线程同时使用SimpleDateFormat对象时，【static修饰的SimpleDateFormat】
