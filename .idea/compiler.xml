@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-event" />
         <module name="springboot-learn" />
         <module name="springboot-time" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-event" target="1.8" />
       <module name="springboot-learn" target="1.8" />
       <module name="springboot-time" target="1.8" />
     </bytecodeTargetLevel>

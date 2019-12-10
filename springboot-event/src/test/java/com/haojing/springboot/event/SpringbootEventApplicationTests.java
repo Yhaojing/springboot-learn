@@ -1,12 +1,10 @@
-package com.haojing.springboot.time;
+package com.haojing.springboot.event;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootTimeApplicationTests {
-
+class SpringbootEventApplicationTests {
 
     @Test
     void contextLoads() {
